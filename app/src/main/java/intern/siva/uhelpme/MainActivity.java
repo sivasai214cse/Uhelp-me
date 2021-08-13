@@ -22,8 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
-        top= AnimationUtils.loadAnimation(this,R.anim.top_animation);
-        bottom= AnimationUtils.loadAnimation(this,R.anim.bottom);
+
         logo = findViewById(R.id.circleImageView);
         uhelp=findViewById(R.id.uhelpme);
         slogan=findViewById(R.id.slogan);
