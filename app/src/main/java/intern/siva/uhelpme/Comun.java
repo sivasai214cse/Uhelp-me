@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+//                            Toast.makeText(Verification.this, "Your Account has been created successfully!", Toast.LENGTH_SHORT).show();
 
 public class Comun extends AppCompatActivity {
     Button visitor,local;
@@ -18,6 +20,7 @@ public class Comun extends AppCompatActivity {
         visitor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(Comun.this,"WELCOME VISITOR ",Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(Comun.this,Login.class);
                 startActivity(intent);
 
@@ -26,6 +29,7 @@ public class Comun extends AppCompatActivity {
         local.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(Comun.this,"WELCOME LOCAL ",Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(Comun.this,Login.class);
                 startActivity(intent);
             }
