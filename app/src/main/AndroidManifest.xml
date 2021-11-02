@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UHelpMe">
-        <activity android:name=".Login"></activity>
+        <activity
+            android:name=".Home1"
+            android:exported="true" />
+        <activity
+            android:name=".Otpverification"
+            android:exported="true" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" />
+        <activity android:name=".Login" />
         <activity android:name=".Comun" />
         <activity android:name=".MainActivity">
             <intent-filter>

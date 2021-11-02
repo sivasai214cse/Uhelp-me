@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "525248696635",
+    "project_id": "uhelpme-a405d",
+    "storage_bucket": "uhelpme-a405d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525248696635:android:cabd0beed3ca8c5427a71e",
+        "android_client_info": {
+          "package_name": "com.example.uhelpme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525248696635-0vfa3m2flhj3kckmkaobjrsjfu1jh7ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoXtldRDaxu4A7CGnv7qnfGdmUzq95P1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525248696635-0vfa3m2flhj3kckmkaobjrsjfu1jh7ch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525248696635:android:28df207699ba29d827a71e",
+        "android_client_info": {
+          "package_name": "intern.siva.uhelpme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525248696635-0vfa3m2flhj3kckmkaobjrsjfu1jh7ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoXtldRDaxu4A7CGnv7qnfGdmUzq95P1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525248696635-0vfa3m2flhj3kckmkaobjrsjfu1jh7ch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

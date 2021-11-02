@@ -12,7 +12,7 @@
         android:layout_width="328dp"
         android:layout_height="300dp"
         android:layout_marginTop="173dp"
-        android:background="@drawable/whitebg"
+        android:background="@drawable/gradbg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

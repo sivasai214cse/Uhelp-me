@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <de.hdodenhof.circleimageview.CircleImageView
+        android:elevation="10dp"
         android:id="@+id/circleImageView"
         android:layout_width="160dp"
         android:layout_height="150dp"
