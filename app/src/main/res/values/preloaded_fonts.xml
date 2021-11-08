@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
         <item>@font/abel</item>
         <item>@font/alfa_slab_one</item>
+        <item>@font/annie_use_your_telescope</item>
         <item>@font/archivo_narrow</item>
         <item>@font/bangers</item>
         <item>@font/brawler</item>
         <item>@font/inder</item>
+        <item>@font/julius_sans_one</item>
+        <item>@font/leckerli_one</item>
+        <item>@font/marvel</item>
+        <item>@font/rubik_light</item>
     </array>
 </resources>

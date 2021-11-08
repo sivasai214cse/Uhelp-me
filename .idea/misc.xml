@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/drawable/arrow.xml" value="0.23657407407407408" />
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/drawable/background.xml" value="0.23657407407407408" />
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/drawable/edittextbackground.xml" value="0.23657407407407408" />
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/drawable/gradbg.xml" value="0.2449074074074074" />
@@ -10,15 +11,28 @@
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/drawable/lock.xml" value="0.2449074074074074" />
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/drawable/lock_.xml" value="0.2449074074074074" />
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/drawable/phone.xml" value="0.2449074074074074" />
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/drawable/profilebackground.xml" value="0.23657407407407408" />
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/drawable/whitebg.xml" value="0.23657407407407408" />
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/about.xml" value="0.264" />
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/activity_catogery.xml" value="0.2" />
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/activity_comun.xml" value="0.2222222222222222" />
-        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/activity_home1.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/activity_home1.xml" value="0.264" />
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/activity_item_detailed.xml" value="0.2222222222222222" />
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/activity_main.xml" value="0.23055555555555557" />
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/activity_otpverification.xml" value="0.176" />
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/activity_signup.xml" value="0.264" />
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/catogery.xml" value="0.264" />
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/comming.xml" value="0.2222222222222222" />
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/content_home_main.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/detailedcatogery.xml" value="0.2" />
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/fragment_favourite.xml" value="0.20972222222222223" />
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/fragment_first.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/nodata.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/sucessful.xml" value="0.2" />
+        <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/layout/upload_dialog.xml" value="0.264" />
         <entry key="..\:/Users/siva sai behera/AndroidStudioProjects/UHelpMe/app/src/main/res/menu/menu.xml" value="0.2222222222222222" />
       </map>
     </option>

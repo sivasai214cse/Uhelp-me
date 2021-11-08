@@ -23,6 +23,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
+import intern.siva.uhelpme.Fragments.HomeFragment;
+import intern.siva.uhelpme.Fragments.ProfileFragment;
 import io.paperdb.Paper;
 
 public class Login extends AppCompatActivity {
@@ -35,6 +37,7 @@ public class Login extends AppCompatActivity {
     DatabaseReference reference;
     FirebaseAuth Auth;
     ProgressBar progressBar;
+    String id;
 
 
     @Override
@@ -42,11 +45,13 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         Paper.init(getApplicationContext());
+        Auth=FirebaseAuth.getInstance();
+
         LoginphonenoEditText=findViewById(R.id.phoneno);
         LoginPasswordEditText=findViewById(R.id.password);
         Login=findViewById(R.id.Login);
         newuserSignup=findViewById(R.id.newuser);
-        progressBar=findViewById(R.id.progressBar1);
+        progressBar=findViewById(R.id.progressbar1);
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -105,10 +110,13 @@ public class Login extends AppCompatActivity {
 
                         Paper.book().write("PhoneNo",phoneDB);
                         Paper.book().write("UserName",usernameDB);
+                        Paper.book().write("Email",emailDB);
+                        Paper.book().write("Fullname",userDB);
                         Paper.book().write("Login","True");
 
 
-
+//                        id=Auth.getUid();
+//                        Paper.book().write("id",id);
                         Intent intent = new Intent(getApplicationContext(),Home1.class);
                         intent.putExtra("name", userDB);
                         intent.putExtra("phoneNo", phoneDB);

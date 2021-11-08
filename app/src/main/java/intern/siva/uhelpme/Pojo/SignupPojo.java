@@ -1,27 +1,27 @@
 package intern.siva.uhelpme.Pojo;
 
 public class SignupPojo {
-    String name,username, email, phoneNo, password,user;
+    String name,username, email, phoneNo, password,Type;
     public SignupPojo()
     {
 
     }
 
-    public SignupPojo(String name, String username, String email, String phoneNo, String password,String user) {
+    public SignupPojo(String name, String username, String email, String phoneNo, String password,String Type) {
         this.name = name;
         this.username = username;
         this.email = email;
         this.phoneNo = phoneNo;
         this.password = password;
-        this.user=user;
+        this.Type=Type;
     }
 
-    public String getUser() {
-        return user;
+    public String getType() {
+        return Type;
     }
 
-    public void setUser(String user) {
-        this.user = user;
+    public void setType(String type) {
+        Type = type;
     }
 
     public String getName() {

@@ -124,6 +124,11 @@ public class Otpverification extends AppCompatActivity {
                             intent.putExtra("phoneNo",phoneNo);
                             intent.putExtra("email",email);
                             intent.putExtra("password",password);
+                            Paper.book().write("Login","True");
+                            Paper.book().write("PhoneNo",phoneNo);
+                            Paper.book().write("UserName",username);
+                            Paper.book().write("Email",email);
+                            Paper.book().write("Fullname",fullname);
                             startActivity(intent);
                             storeNewUsersData();
                             finish();
@@ -143,7 +148,6 @@ public class Otpverification extends AppCompatActivity {
         String user=Paper.book().read("communi");
         SignupPojo signupPojo = new SignupPojo(fullname,username,email,phoneNo,password,user);
         reference.child(phoneNo).setValue(signupPojo);
-
 
     }
 
